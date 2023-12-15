@@ -1,0 +1,28 @@
+﻿  CTAES.c
+  PayloadEncrypter.c
+  Generating Code...
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(54,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(54,10):
+  consider using '%lld' in the format string
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(54,10):
+  consider using '%Id' in the format string
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(54,10):
+  consider using '%I64d' in the format string
+  
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(79,8): warning C4244: 'function': conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(86,25): warning C4244: 'function': conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(120,8): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(121,3): warning C4047: 'initializing': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(211,45): warning C4133: 'function': incompatible types - from 'SIZE_T *' to 'PDWORD'
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(229,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SIZE_T'
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(229,9):
+  consider using '%lld' in the format string
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(229,9):
+  consider using '%Id' in the format string
+  C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(229,9):
+  consider using '%I64d' in the format string
+  
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(234,75): warning C4244: 'function': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(196,9): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\PayloadEncrypter\PayloadEncrypter.c(197,3): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+  PayloadEncrypter.vcxproj -> C:\Users\dharani\Documents\Coding\MaldevAcademyLdr.1\x64\Debug\PayloadEncrypter.exe
