@@ -1,0 +1,98 @@
+﻿  Assembling HellsAsm.asm...
+  ApiHashing.c
+  Common.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\ApiHashing.c(59,25): warning C4047: '=': 'CHAR' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\ApiHashing.c(109,39): warning C4244: 'initializing': conversion from 'WCHAR' to 'CHAR', possible loss of data
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Common.c(147,47): warning C4142: 'strrchr': benign redefinition of type
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vcruntime_string.h(76,38):
+  see declaration of 'strrchr'
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Common.c(149,19): warning C4163: 'strrchr': not available as an intrinsic function
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Common.c(150,18): warning C4163: 'strrchr': not available as an intrinsic function
+  CtAes.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\CtAes.c(533,34): warning C4090: 'function': different 'const' qualifiers
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\CtAes.c(549,23): warning C4090: 'function': different 'const' qualifiers
+  Debug.c
+  HellsHall.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(50,47): warning C4047: '==': 'ULONG_PTR' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(87,51): warning C4047: 'function': 'ULONG_PTR' differs in levels of indirection from 'HMODULE'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(87,51): warning C4024: 'InitDllsConfigStructs': different types for formal and actual parameter 2
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(127,50): warning C4047: 'function': 'ULONG_PTR' differs in levels of indirection from 'HMODULE'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(127,50): warning C4024: 'InitDllsConfigStructs': different types for formal and actual parameter 2
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(131,45): warning C4047: '==': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\HellsHall.c(227,23): warning C4047: '==': 'DWORD' differs in levels of indirection from 'void *'
+  Inject.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(24,13): warning C4047: '=': 'ULONG_PTR' differs in levels of indirection from 'PBYTE'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(25,12): warning C4047: '=': 'ULONG_PTR' differs in levels of indirection from 'PBYTE'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(27,18): warning C4022: 'Memcpy': pointer mismatch for actual parameter 2
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(28,17): warning C4022: 'Memcpy': pointer mismatch for actual parameter 2
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(21,13): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(22,5): warning C4047: 'initializing': 'ULONG_PTR' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(66,32): warning C4244: 'initializing': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Inject.c(166,1): warning C4010: single-line comment contains line-continuation character
+  main.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(45,54): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(45,54): warning C4024: 'MessageBoxA': different types for formal and actual parameter 4
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(47,41): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(47,41): warning C4024: 'SetCriticalSectionSpinCount': different types for formal and actual parameter 2
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(49,31): warning C4047: 'function': 'int' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(49,31): warning C4024: 'GetWindowLongPtrW': different types for formal and actual parameter 2
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(52,28): warning C4047: 'function': 'LCID' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(52,28): warning C4024: 'ConvertDefaultLocale': different types for formal and actual parameter 1
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,27): warning C4047: 'function': 'UINT' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,27): warning C4024: 'MultiByteToWideChar': different types for formal and actual parameter 1
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,33): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,33): warning C4024: 'MultiByteToWideChar': different types for formal and actual parameter 2
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,45): warning C4047: 'function': 'int' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,45): warning C4024: 'MultiByteToWideChar': different types for formal and actual parameter 4
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,57): warning C4047: 'function': 'int' differs in levels of indirection from 'void *'
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\IatCamo.h(53,57): warning C4024: 'MultiByteToWideChar': different types for formal and actual parameter 6
+  (compiling source file 'main.c')
+  
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(24,8): warning C4305: 'initializing': truncation from 'double' to 'FLOAT'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(34,46): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(34,46): warning C4024: 'SHGetFolderPathW': different types for formal and actual parameter 4
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(41,36): warning C4244: 'initializing': conversion from 'FLOAT' to 'DWORD', possible loss of data
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(82,43): warning C4047: 'function': 'UINT32' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\main.c(82,43): warning C4024: 'GetModuleHandleH': different types for formal and actual parameter 1
+  RsrcPayload.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\RsrcPayload.c(7,1): warning C4010: single-line comment contains line-continuation character
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\RsrcPayload.c(24,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\RsrcPayload.c(46,56): warning C4047: '!=': 'DWORD' differs in levels of indirection from 'void *'
+  Unook.c
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Unook.c(25,68): warning C4267: '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Unook.c(16,11): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+C:\Users\dharani\Documents\Coding\NewLdr\Loader\Unook.c(78,12): warning C4047: 'initializing': 'SIZE_T' differs in levels of indirection from 'void *'
+  Generating Code...
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  Loader.vcxproj -> C:\Users\dharani\Documents\Coding\NewLdr\x64\Release\Loader.exe
